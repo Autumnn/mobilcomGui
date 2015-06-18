@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file:///storage/mi/wangqs/Android/Resources/Software Class/mobilecommunication-master/mobilcomGui/app/app.iml" filepath="/storage/mi/wangqs/Android/Resources/Software Class/mobilecommunication-master/mobilcomGui/app/app.iml" />
+      <module fileurl="file:///storage/mi/wangqs/Android/Resources/Software Class/mobilecommunication-master/mobilcomGui/libs/libs.iml" filepath="/storage/mi/wangqs/Android/Resources/Software Class/mobilecommunication-master/mobilcomGui/libs/libs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mobilcomGui.iml" filepath="$PROJECT_DIR$/mobilcomGui.iml" />
+      <module fileurl="file:///storage/mi/wangqs/Android/Resources/Software Class/mobilecommunication-master/mobilcomGui/libs/tesstwo/tesstwo.iml" filepath="/storage/mi/wangqs/Android/Resources/Software Class/mobilecommunication-master/mobilcomGui/libs/tesstwo/tesstwo.iml" />
+    </modules>
+  </component>
+</project>

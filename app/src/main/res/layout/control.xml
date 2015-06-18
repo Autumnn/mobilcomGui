@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:baselineAligned="false">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="12pt"
+        android:elegantTextHeight="false" />
+
+    <ImageView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:id="@+id/FU_Logo"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/agtech_logo"/>
+
+    <ImageView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:id="@+id/Lab_Logo"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/fu_logo"/>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" >
+
+        <ImageButton
+            android:id="@+id/buttonBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dip"
+            android:layout_gravity="bottom"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/cancel_button"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="finishActivity" />
+
+        <ImageButton
+            android:id="@+id/takepicture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dip"
+            android:layout_gravity="bottom"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/camera_button"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="takePicture" />
+
+        <Button
+            android:id="@+id/navigate_load_image"
+            android:layout_below="@+id/takepicture"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="load Image"
+            android:onClick="navigateLoadImage" />
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
